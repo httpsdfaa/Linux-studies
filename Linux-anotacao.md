@@ -1,3 +1,33 @@
+## Anotações Relacionado ao Linux
+
+1. Leia antes de atualizar
+   Sempre consultar o https://archlinux.org/news/
+
+   Neste site anuncia mudanças importantes
+
+   
+
+2. Faça backup de arquivos de configuração importantes
+
+   ```bash
+   /etc/pacman.conf
+   /etc/mkinicpio.conf
+   /etc/fstab
+   /etc/locale.gen
+   /etc/hostname
+   
+   # Caso altera algo faça o backup
+   
+   sudo cp /etc/pacman.conf ~/backups/pacman.conf.bkp
+   ```
+
+
+
+3. **EVITE USAR O SISTEMA COMO ROOT**. Utilizar somente em necessidade
+4. **Atualize regularmente, mas com atenção. Não atualizar meses depois ( pode ser que quebre )**
+
+
+
 # Hierarquia de Pastas em Linux
 
 https://www.youtube.com/watch?v=90UseHX4-ns
